@@ -1,0 +1,26 @@
+.option-single-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.option-single-choice .ant-radio-group {
+  width: 90%;
+  /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+}
+
+/* Thêm border cho nút radio */
+.option-single-choice .ant-radio-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border-radius: 10px;
+}
+.option-single-choice .ant-radio-button {
+  background-color: #13aa7b;
+}

@@ -1,0 +1,21 @@
+.option-multiple-choice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.answer-option {
+  border-radius: 10px;
+  width: 100%; /* Độ rộng tính cả border */
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.answer-option.selected {
+  background-color: #13aa7b;
+}
