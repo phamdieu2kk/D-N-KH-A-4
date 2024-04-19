@@ -96,7 +96,7 @@ const Topic = () => {
                       </Typography.Text>
                       <div className="topic-detail">
                         <p style={{ fontStyle: "italic" }}>
-                          Miêu tả sơ lượt: {topic.description}
+                         - {topic.description}
                         </p>
                       </div>
                     </Card>

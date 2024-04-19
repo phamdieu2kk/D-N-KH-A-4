@@ -54,6 +54,7 @@ const TopicSlider = () => {
             color: "#f5d612",
             textAlign: "center",
             marginBottom: "2rem",
+            fontWeight:"bold"
           }}
           className="home-title"
         >
@@ -106,7 +107,7 @@ const TopicSlider = () => {
                     </Typography.Text>
                     <div className="topic-detail">
                       <p style={{ fontStyle: "italic" }}>
-                        Miêu tả sơ lượt: {topic.description}
+                        - {topic.description}
                       </p>
                     </div>
                   </Card>
