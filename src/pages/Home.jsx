@@ -10,7 +10,6 @@ const Home = () => {
     <div className="container">
       <Row
         justify="space-between"
-        // align="top"
         style={{
           marginTop: "2rem",
         }}

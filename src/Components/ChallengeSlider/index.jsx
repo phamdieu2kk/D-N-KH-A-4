@@ -77,7 +77,7 @@ const ChallangeSlider = () => {
               lg={6}
               xl={6}
               style={{
-                minHeight: "300px",
+                minHeight: "auto",
               }}
             >
               <ChallengeCard
@@ -92,7 +92,7 @@ const ChallangeSlider = () => {
       <Button
         style={{
           alignSelf: "center",
-          width: "30%",
+          width: "auto",
         }}
       >
         <Link
