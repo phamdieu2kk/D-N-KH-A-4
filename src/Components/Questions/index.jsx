@@ -181,7 +181,7 @@ const Questions = () => {
               <Progress
                 className="time-progress"
                 type="circle"
-                strokeWidth={6}
+                strokeWidth={12}
                 strokeColor="#13aa7b"
                 percent={(timeLeft / 180) * 100}
                 status="active"
